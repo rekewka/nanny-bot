@@ -5,7 +5,7 @@ import signal
 import platform
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler
 from telegram.request import HTTPXRequest
-from bot.config import TELEGRAM_TOKEN
+from config import TELEGRAM_TOKEN
 from data.database import init_db, pg_pool
 from bot.commands import get_command_handlers
 from bot.enhanced_start import enhanced_start, start_button_handler

@@ -2,7 +2,7 @@ import bcrypt
 from contextlib import contextmanager
 from psycopg2 import pool
 from psycopg2.extras import RealDictCursor
-from bot.config import DB_URI
+from config import DB_URI
 
 
 pg_pool = pool.SimpleConnectionPool(minconn=1, maxconn=10, dsn=DB_URI)
