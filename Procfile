@@ -1,1 +1,1 @@
-worker : python /Users/rekewka/Desktop/nanny_bot/bot/bot.py
+worker : python bot/bot.py
